@@ -7,7 +7,8 @@
     "brain-games": "bin/brain-games.js"
   },
   "scripts": {
-    "bin": "node bin/brain-games.js"
+    "bin": "node bin/brain-games.js",
+    "lint": "npx eslint ."
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,11 @@
   },
   "homepage": "https://github.com/likurg42/fullstack-javascript-project-44#readme",
   "devDependencies": {
+    "@eslint/create-config": "^1.8.1",
+    "@eslint/js": "^9.25.1",
+    "@stylistic/eslint-plugin": "^4.2.0",
+    "eslint": "^9.25.1",
+    "globals": "^16.0.0",
     "readline-sync": "^1.4.10"
   }
 }
