@@ -1,10 +1,10 @@
 {
-  "name": "brain-gamers",
+  "name": "brain-games",
   "version": "1.0.0",
   "description": "Brain games build with javascript",
   "type": "module",
   "bin": {
-    "nodejs-package": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js"
   },
   "scripts": {
     "bin": "node bin/brain-games.js"
